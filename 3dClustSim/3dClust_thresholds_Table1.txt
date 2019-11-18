@@ -1,0 +1,9 @@
+# 3dClustSim -acf 0.621749 4.46766 10.804 -mask results/APVT_NA_Photo_Con_gt_Incon/mask.nii
+# 2-sided thresholding
+# Grid: 63x76x52 2.50x2.50x3.00 mm^3 (81445 voxels in mask)
+#
+# CLUSTER SIZE THRESHOLD(pthr,alpha) in Voxels
+# -NN 2  | alpha = Prob(Cluster >= given size)
+#  pthr  | .10000 .05000 .02000 .01000
+# ------ | ------ ------ ------ ------
+ 0.005000    56.7   67.6   84.6   *98.0*

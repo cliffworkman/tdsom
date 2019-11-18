@@ -1,0 +1,9 @@
+# 3dClustSim -acf 0.617974 4.47657 10.9539 -mask results/pm_mccb_mask.nii
+# 2-sided thresholding
+# Grid: 63x76x52 2.50x2.50x3.00 mm^3 (81467 voxels in mask)
+#
+# CLUSTER SIZE THRESHOLD(pthr,alpha) in Voxels
+# -NN 2  | alpha = Prob(Cluster >= given size)
+#  pthr  | .10000 .05000 .02000 .01000
+# ------ | ------ ------ ------ ------
+ 0.005000    52.6   62.9   77.6   *89.9*

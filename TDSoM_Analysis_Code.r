@@ -8,8 +8,7 @@ require("psych")
 #########################################################################################################################
 
 ## Load data for reliability analysis
-#setwd("C:\\Data\\")
-setwd("C:\\Users\\cliff\\Dropbox\\Shared\\_WORK\\UChicago\\Political_Violence\\00_MANUSCRIPT\\Data\\")
+setwd("C:\\Data\\")
 tdsom_mcs <- read.csv('TDSoM_MoralCon_Data.csv')
 if ("tdsom_mcs" %in% search()) {
   detach(tdsom_mcs)
